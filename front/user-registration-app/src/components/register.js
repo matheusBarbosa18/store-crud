@@ -33,7 +33,7 @@ export const Register = () => {
         })
       .catch((error) => {
         console.error('Erro ao cadastrar usuário:', error);
-        setErrorMessage('Usuário já existe. Por favor, use um e-mail diferente.');
+        setErrorMessage('Email já existe. Por favor, use um e-mail diferente.');
       });
   };
   
