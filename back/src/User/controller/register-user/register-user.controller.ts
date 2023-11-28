@@ -9,7 +9,7 @@ export class RegisterUserController {
   constructor(private readonly registerUserService: RegisterUserService) {}
 
   @Post('/register')
-  @ApiResponse({ status: 201, description: 'cadastra um novo usuario', type: UserDTO })
+  @ApiResponse({ status: 201, description: 'Cadastra um novo usuario', type: UserDTO })
   async create(@Body() userDTO: UserDTO) {
      await this.registerUserService.execute(userDTO);
   }
