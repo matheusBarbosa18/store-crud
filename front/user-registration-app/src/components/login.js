@@ -114,6 +114,9 @@ export const Login = () => {
             Entrar
           </button>
         </form>
+         <p style={{ textAlign: 'center', marginTop: '10px' }}>
+          Não tem login? <a href="/register">Cadastre-se agora</a>
+        </p>
       </div>
     </div>
   );

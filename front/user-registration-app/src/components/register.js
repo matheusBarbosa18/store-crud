@@ -109,6 +109,9 @@ export const Register = () => {
   
             <button type="submit" style={buttonStyles}>Cadastrar</button>
           </form>
+        <p style={{ textAlign: 'center', marginTop: '10px' }}>
+          Já tem login? <a href="/login">Faça login</a>
+        </p>
         </div>
       </div>
     );
